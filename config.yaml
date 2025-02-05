@@ -23,7 +23,7 @@ languages:
     menu:
       main:
         - name: Blog
-          url: /posts
+          url: /blog
           weight: 10
         - name: Tags
           url: /tags
@@ -40,7 +40,7 @@ languages:
         subtitle: "Welcome to my Website"
         buttons:
         - name: Blog
-          url: posts
+          url: blog
         - name: Tags
           url: tags
         - name: About
@@ -58,7 +58,7 @@ languages:
     menu:
       main:
         - name: وبلاگ
-          url: /posts
+          url: /blog
           weight: 10
         - name: تگ‌ها
           url: /tags
@@ -76,7 +76,7 @@ languages:
         subtitle: "به وبسایت من خوش اومدی"
         buttons:
         - name: وبلاگ
-          url: posts
+          url: blog
         - name: تگ‌ها
           url: tags
         - name: درباره من
@@ -136,7 +136,7 @@ params:
     imageTitle: my image
     buttons:
       - name: Blog
-        url: posts
+        url: blog
       - name: Tags
         url: tags
 
@@ -186,7 +186,7 @@ menu:
   main:
     - identifier: blog
       name: Blog
-      url: /posts/
+      url: /blog/
       weight: 10
     - identifier: tags
       name: Tags
