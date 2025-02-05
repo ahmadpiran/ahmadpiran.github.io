@@ -1,0 +1,21 @@
+# Hugo build output directory
+/public/
+
+/resources/
+
+# Temporary build lock file
+.hugo_build.lock
+
+# Node.js dependencies
+node_modules/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.swp
+
+# Log files
+*.log
