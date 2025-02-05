@@ -130,7 +130,7 @@ params:
     enabled: true # needs to be explicitly set
     # title: "Hi there, I'm Ahmad Piran \U0001F44B"
     subtitle: "Welcome to my website"
-    imageUrl: "<img location>"
+    # imageUrl: "<img location>"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
