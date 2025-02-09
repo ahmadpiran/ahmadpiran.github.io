@@ -46,41 +46,7 @@ languages:
         - name: About
           url: about
 
-  fa:
-    languagedirection: rtl
-    languageName: Persian
-    weight: 2
-    title: "وبسایت شخصی احمد پیران"
-    taxonomies:
-      category: FAcategories
-      tag: FAtags
-      series: FAseries
-    menu:
-      main:
-        - name: وبلاگ
-          url: /blog
-          weight: 10
-        - name: تگ‌ها
-          url: /tags
-          weight: 20
-        - name: درباره من
-          url: /about
-          weight: 30
-    # custom params for each language should be under [langcode].parms - hugo v0.120.0
-    params:
-      languageAltTitle: Persian
-      env: production # to enable google analytics, opengraph, twitter-cards and schema.
-      profileMode:
-        enabled: true # needs to be explicitly set
-        title: "سلام، من احمد پیران هستم\U0001F44B "
-        subtitle: "به وبسایت من خوش اومدی"
-        buttons:
-        - name: وبلاگ
-          url: blog
-        - name: تگ‌ها
-          url: tags
-        - name: درباره من
-          url: about
+  
 
 
 params:
