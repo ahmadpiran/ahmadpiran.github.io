@@ -1,4 +1,4 @@
-baseURL: "https://ahmadpiran.github.io/"
+baseURL: "https://ahmadpiran.com/"
 title: Ahmad Piran's blog
 pagination.pagerSize: 5
 theme: PaperMod
@@ -46,14 +46,18 @@ languages:
         - name: About
           url: about
 
+        analytics:
+          google:
+          SiteVerificationTag: "G-F2ZQRCMFPJ"
+
   
 
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Ahmad Piran's blog
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
+  description: "This is my personal blog"
+  keywords: [Blog, Portfolio, AhmadPiran]
   author: Ahmad
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -121,7 +125,7 @@ params:
 
   analytics:
     google:
-      SiteVerificationTag: "G-F2ZQRCMFPJ"
+      SiteVerificationTag: "XYZabc"
     bing:
       SiteVerificationTag: "XYZabc"
     yandex:
@@ -172,3 +176,6 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+services:
+  googleAnalytics:
+    id: "G-F2ZQRCMFPJ"
