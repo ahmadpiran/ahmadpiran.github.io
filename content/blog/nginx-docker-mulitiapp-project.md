@@ -1,6 +1,7 @@
 ---
 date: '2025-02-11T10:57:14+03:30'
 title: 'Nginx Docker Mulitiapp Project'
+tags: ["nginx", "docker", "project"]
 ---
 ## Introduction
 
