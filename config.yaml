@@ -84,9 +84,9 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "https://drive.google.com/file/d/1uMdrf6kJuYSpJRgxnGaU55QmFOqzvq6d/view"
+    favicon: "https://ahmadpiran.com/favicon.svg"
     favicon16x16: "<link / abs url>"
-    favicon32x32: "https://drive.google.com/file/d/1uMdrf6kJuYSpJRgxnGaU55QmFOqzvq6d/view"
+    favicon32x32: "https://ahmadpiran.com/favicon.svg"
     apple_touch_icon: "<link / abs url>"
     safari_pinned_tab: "<link / abs url>"
 
