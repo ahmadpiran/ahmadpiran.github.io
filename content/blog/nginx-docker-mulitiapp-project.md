@@ -1,6 +1,5 @@
 ---
 date: '2025-02-11T10:57:14+03:30'
-draft: true
 title: 'Nginx Docker Mulitiapp Project'
 ---
 ## Introduction
