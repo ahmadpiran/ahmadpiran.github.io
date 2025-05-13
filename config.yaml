@@ -48,7 +48,7 @@ languages:
 
         analytics:
           google:
-          SiteVerificationTag: "G-F2ZQRCMFPJ"
+          SiteVerificationTag: "REPLACE_ME_GA_ID"
 
   
 
