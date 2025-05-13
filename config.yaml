@@ -178,4 +178,4 @@ markup:
     # style: monokai
 services:
   googleAnalytics:
-    id: "G-F2ZQRCMFPJ"
+    id: "REPLACE_ME_GA_ID"
