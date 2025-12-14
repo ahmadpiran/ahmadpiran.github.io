@@ -1,6 +1,6 @@
 ---
 date: '2025-12-14T22:54:48+03:00'
-draft: true
+draft: false
 title: 'A Journey of Breaking and Building'
 ---
 
