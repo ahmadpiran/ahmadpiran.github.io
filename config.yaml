@@ -120,8 +120,6 @@ params:
       url: "https://github.com/ahmadpiran"
     - name: linkedin
       url: "https://www.linkedin.com/in/ahmadpiran/"
-    - name: youtube
-      url: "https://www.youtube.com/@AhmadPiranEdge"
     - name: email
       url: "mailto: ahmad.piran@gmail.com"
 
