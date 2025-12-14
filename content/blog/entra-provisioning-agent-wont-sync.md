@@ -5,7 +5,7 @@ title: 'Troubleshooting the invisible Error: When the Entra Provisioning Agent w
 tags: ["MicrosoftEntra", "CloudSync", "HybridIdentity", "ActiveDirectory", "AzureAD"]
 ---
 
-## Introduction: The Client's Dilemma**
+## Introduction: The Client's Dilemma
 
 You’ve just upgraded your hybrid identity setup on Azure, moving from the heavy AAD Connect to the lightweight **Microsoft Entra Provisioning Agent** (Cloud Sync). The installation finished cleanly on your Domain Controller, the service is running, and the Entra portal says "Healthy." Everything looks perfect… except for one critical detail: **zero users are syncing to the cloud.**
 
@@ -131,7 +131,7 @@ If you ever find yourself with a healthy agent but zero synced users, remember t
 
 1. **Check the `ProvisioningAgent/Admin` event log** immediately.
 2. **Verify the GMSA permissions**, but don't stop there.
-3. **Test the Service Bus.** If `Test-NetConnection servicebus.windows.net -Port 443` fails, no amount of restarting services will fix it.
+3. **Test the Service Bus.** If `Test-NetConnection servicebus.windows.net -Port 443` and other URLs fails, no amount of restarting services will fix it.
 
 It turns out, the error wasn't invisible after all—it was just waiting for us to ask the right question.
 
