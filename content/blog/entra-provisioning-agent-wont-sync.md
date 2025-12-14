@@ -39,7 +39,6 @@ But Windows Event Logs can be like a dense forest—you can easily get lost look
 We bypassed the standard Windows System logs and went straight to the specialized channel: the **ProvisioningAgent/Admin** logs.
 
 > Path: Applications and Services Logs → Microsoft → ProvisioningAgent → Admin
-> 
 
 **Wait, what are these?** We were faced with dozens of red error messages. The repeated, key error was clear: **"The agent could not establish a connection."**
 
@@ -55,7 +54,8 @@ We ran targeted `Test-NetConnection` checks in PowerShell to verify:
 
 PowerShell
 
-`# 1. Test connection to Entra ID Login
+```bash
+# 1. Test connection to Entra ID Login
 Test-NetConnection -ComputerName "login.microsoftonline.com" -Port 443
 # Result: TcpTestSucceeded: True (Success)
 
@@ -65,7 +65,8 @@ Test-NetConnection -ComputerName "mscrl.microsoft.com" -Port 80
 
 # 3. Test Connection to the Azure Service Bus
 Test-NetConnection -ComputerName "servicebus.windows.net" -Port 443
-# Result: TcpTestSucceeded: False (FAILURE)`
+# Result: TcpTestSucceeded: False (FAILURE)
+```
 
 **Oops.**
 While the server could reach the basic authentication endpoints, the test against the critical infrastructure endpoint failed: `servicebus.windows.net`.
